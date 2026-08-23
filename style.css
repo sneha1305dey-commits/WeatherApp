@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        #4f46e5,   /* Purple */
+        #3b82f6,   /* Blue */
+        #21c9e7    /* Cyan */
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-container {
+    height: 220px;
+    width: 350px;
+    background-color: #649efc;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+button {
+    background-color: rgb(243, 167, 14);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+}

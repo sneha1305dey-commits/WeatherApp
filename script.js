@@ -9,7 +9,7 @@ btn.addEventListener('click', ()=>{
     }
 
 
-    const prom = fetch(`http://api.weatherapi.com/v1/current.json?key=a00738652512433c8ae175813260108&q=${location}&aqi=no`);
+    const prom = fetch(`https://api.weatherapi.com/v1/current.json?key=a00738652512433c8ae175813260108&q=${location}&aqi=no`);
 
     prom
     .then((response)=>response.json())
